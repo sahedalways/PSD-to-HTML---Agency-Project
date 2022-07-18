@@ -1,0 +1,382 @@
+<link href="https://fonts.googleapis.com/css2?family=Genos:ital,wght@0,100;1,300;1,600&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Rubik+Beastly&display=swap" rel="stylesheet"> 
+@font-face{
+    src: url('fonts/nautilus.otf');
+    font-family: nautilus;
+}
+body{
+    font-family: nautilus;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    background-image: url(img/cover.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 4px 0px 20px 0px;
+    background-color:#ddd;
+    position: relative;
+    z-index: 99999;
+}
+ header::after{
+   position: absolute;
+   content: '';
+   background-color: #000;
+   width: 100%;
+   height: 100%;
+   top: 0px;
+   left: 0px;
+   opacity: .3;
+   z-index: -1;
+ }
+
+
+
+
+
+.col-md-4 nav ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+.col-md-4 nav ul li{
+    list-style: none;
+    display: inline-block;
+    
+}
+
+.col-md-4 nav ul li a{
+    text-decoration: none;
+    margin-left: 10px;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.col-md-4 nav ul li a:hover{
+    border-top: 4px solid hsl(120, 58%, 57%);
+}
+
+.col-md-1 img{
+    width: 60px;
+    height: 20px;
+}
+
+.header-middle{
+    text-align: center;
+    margin: 250px 0px 215px 0px ;
+}
+
+.header-middle h2{
+    font-size: 55px;
+    color: #ffff;
+    letter-spacing: 2px;
+    font-weight: 600;
+    margin-bottom: 35px;
+}
+
+.header-middle a{
+    font-size: 22px;
+    color: #ffff;
+    text-decoration: none;
+    background: hsl(120, 58%, 57%) ;
+    padding: 10px 30px;
+    border-radius: 30px;
+    
+}
+
+.header-bottom{
+    text-align: center;
+}
+
+.header-bottom a{
+    text-decoration: none;
+    background: #f3ebe1;
+    padding: 5px 20px;
+    color: #000;
+    font-size: 16px;
+    border-radius: 30px;
+    opacity: .7;
+    position: relative;
+}
+
+#arrow{
+    position: absolute; 
+    top: 630px;
+    right: 615px;
+    color: #000;
+    opacity: .5;
+}
+
+#kalam{
+    padding: 3px;
+    border: none;
+    border-radius: 10px;
+    opacity: .7;
+    width: 180px;
+    position: relative;
+}
+
+#icon{
+    position: absolute;
+    top: 8px;
+    right: 45px;
+}
+
+/*service area start here*/
+.service{
+    padding: 50px 0px;
+}
+.service-title{
+    text-align: center;
+    margin-bottom: 70px;
+
+}
+
+.service-box {
+    text-align: center;
+}
+
+.service-box img{
+    background: #e1f3e1;
+    padding: 40px 30px;
+    border-radius: 20%;
+    margin-bottom: 20px;
+}
+
+.service-box h3{
+    font-size: 24px;
+    font-weight: 600;
+    opacity: .6;
+}
+
+.service-box p{
+    font-size: 15px;
+    opacity: .8;
+    margin-bottom: 35px;
+}
+
+.service-title h2{
+    letter-spacing: 3px;
+    font-size: 20px;
+    opacity: .8;
+}
+
+.service-title p{
+    opacity: .8;
+    font-size: 15px;
+    
+}
+
+.service-box a{
+    text-decoration: none;
+    font-size: 16px;
+    background: #54d154;
+    padding: 6px 20px;
+    border-radius: 30%;
+    color: #ffffff;
+    margin-top: 20px;
+}
+/*service area end here*/
+
+/*work area start here*/
+.our-work{
+    background: #54D054;
+    padding: 40px;
+}
+
+.work-title{
+    text-align: center;
+    margin-bottom: 45px;
+    opacity: .6;
+    
+}
+
+.work-title h2{
+    margin-bottom: 15px;
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+
+.filter-menu nav ul {
+    margin:0;
+    padding:0;
+    width:250px;
+    margin:0px auto;
+}
+
+.filter-menu nav ul li{
+    list-style:none;
+    display:inline-block;
+    margin-bottom:20px;   
+}
+
+.filter-menu nav ul li a{
+    text-decoration:none;
+    margin-left:auto;
+    font-size:16px;
+    background: #ffffff;
+    padding:8px; 
+    transition: .5s;
+    
+}
+
+.filter-menu nav ul li a:hover{
+    background: #2b9b2b;
+    color: #ffffff;
+}
+
+#child{
+    border-top-left-radius: 20%;
+    border-bottom-left-radius: 20%;
+}
+
+#child1{
+    border-top-right-radius: 20%;
+    border-bottom-right-radius: 20%;
+}
+
+.pic{
+    width: 20%;
+    float: left;
+    margin: 30px 0px 0px 0px;
+    text-align: center;
+
+}
+
+.pic img{
+    width: 90%;
+}
+
+.btn{
+    background: #2B9B2B;
+    width: 190px;
+    height: 40px;
+    margin: 50px auto 25px auto;
+    border-radius: 10%;
+    
+}
+.btn a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+
+}
+/*work area end here*/
+
+/*testimonial area start here*/
+
+.testimonial{
+    padding: 40px;
+}
+
+.testimonial-title{
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.testimonial-title h2{
+    margin-bottom: 15px;
+    font-size: 20px;
+    letter-spacing: 3px;
+  position: relative;
+    
+}
+ 
+.testimonial-title p{
+    opacity: .8;
+    font-size: 15px;
+}
+
+.testimonial-des{
+    text-align: center;
+}
+
+.testimonial-des img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.testimonial-des h6{
+    display: inline-block;
+}
+
+.testimonial-des span{
+    display: block;
+    margin-left: 115px;
+    margin-top: -22px;
+}
+
+.testimonial-title h2::after{
+    position: absolute;
+    content: '';
+    width: 50px;
+    height: 2px;
+    background: #000;
+    left: 50%;
+    top: 33px;
+    margin-left: -25px;
+}
+
+.team-area{
+    background: #54D054;
+    padding: 30px 0px;
+}
+
+.team-title{
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.team-title h2{
+    margin-bottom: 15px;
+    font-size: 20px;
+    letter-spacing: 3px;
+    position: relative;
+}
+
+.single-team-box{
+    text-align: center;
+    display: inline-block;
+    margin-left: 33px;
+}
+
+.single-team-box{
+    position: relative;
+}
+
+.single-team-box img{
+    border-radius: 50%;
+    margin-bottom: 170px;
+    
+}
+
+.single-team-box::before{
+    position: absolute;
+    content: '';
+    background: #000;
+    width: 150px;
+    height: 2px;
+    transform: rotate(90deg);
+    top: 210px;
+    margin-left: -10px;
+
+}
+
+
+
+.team-title h2::after{
+    position: absolute;
+    content: '';
+    background: #000;
+    width: 60px;
+    height: 2px;
+    left: 50%;
+    top: 33px;
+    margin-left: -30px;
+}
+
+
+
+/*testimonial area end here*/
+
+
